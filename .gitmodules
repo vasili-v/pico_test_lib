@@ -1,0 +1,3 @@
+[submodule "pico_libtest"]
+	path = pico_libtest
+	url = git@github.com:vasili-v/pico_libtest.git

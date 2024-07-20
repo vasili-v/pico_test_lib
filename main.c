@@ -2,6 +2,8 @@
 #include "pico/stdlib.h"
 #include "pico/binary_info.h"
 
+#include "pico_libtest.h"
+
 #define PROG_DESC "Raspberry Pi Pico Test Program"
 
 int main()
@@ -16,6 +18,7 @@ int main()
 		putchar('.');
 	}
 	printf("%s\n", PROG_DESC);
+	pico_libtest_func();
 
 	while(1)
 	{
